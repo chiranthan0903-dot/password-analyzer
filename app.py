@@ -235,7 +235,10 @@ if submitted:
         # Common password check
         common = {
             "password", "password123", "123456",
-            "qwerty", "admin", "admin123"
+            "qwerty", "admin", "admin123", "monkey",
+            "11111111", "iloveyou", "secret", 
+            "mainahibataunga", "welcome", "football",
+            "abc123", "sunshine", "motherfather"
         }
 
         if password.lower() in common:
